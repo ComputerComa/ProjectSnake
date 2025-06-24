@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <None Remove="Assets\Body.png" />
+    <None Remove="Assets\chomp.mp3" />
     <None Remove="Assets\DeadBody.png" />
     <None Remove="Assets\DeadHead.png" />
     <None Remove="Assets\DroidSansMono.ttf" />
@@ -21,6 +22,7 @@
 
   <ItemGroup>
     <Resource Include="Assets\Body.png" />
+    <Resource Include="Assets\chomp.mp3" />
     <Resource Include="Assets\DeadBody.png" />
     <Resource Include="Assets\DeadHead.png" />
     <Resource Include="Assets\DroidSansMono.ttf" />

@@ -1,5 +1,7 @@
 ﻿
 
+using System.Windows.Media;
+
 namespace ProjectSnake
 {
     public class GameState
@@ -15,7 +17,6 @@ namespace ProjectSnake
 
         private readonly LinkedList<Position> snakePositions = new LinkedList<Position>();
         private readonly Random random = new Random();
-
 
         public GameState(int rows, int cols) {
             Rows = rows;
